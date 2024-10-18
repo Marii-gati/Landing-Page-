@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adopta un Amigo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <style>
+        .bg-rosa {
+            background-color: #ff69b4;
+        }
+        .bg-rosa-pastel {
+        background-color: #ffc0cb;
+    }
+    </style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-rosa-pastel ">
+    <div class="container">
+        <a class="navbar-brand" href="#">Adopta un Amigo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobreNosotros">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pets">Nuestros Animales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#video">Video</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Regístrate">Regístrate</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<header class="bg-rosa text-white text-center py-5">
+    <div class="container">
+        <h1>Adopta un Amigo</h1>
+        <p>Encuentra tu compañero perfecto hoy mismo</p>
+        <a href="#Regístrate" class="btn btn-light btn-lg">Comienza el Proceso</a>
+    </div>
+</header>
+
+<main class="container mt-5">
+
+    <section id="sobreNosotros" class="py-5">
+        <h2 class="text-center">Sobre Nosotros</h2>
+        <p>Nos dedicamos a ayudar a animales en situación de abandono a encontrar un hogar. Creemos que cada animal merece una segunda oportunidad.</p>
+    </section>
+
+    <section id="pets" class="py-5">
+        <h2 class="text-center">Nuestros Animales</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/images/perro1.jpg" class="img-fluid" alt="Perro 1">
+                <h3>copo</h3>
+                <p>Amoroso, jugueton en busca de un hogar donde le brinden mucho amor </p>
+            </div>
+            <div class="col-md-4">
+                <img src="/images/gato3.avif" class="img-fluid" alt="Gato 1">
+                <h3>rayo</h3>
+                <p>Naranja con blanco juguetones por naturaleza </p>
+            </div>
+            <div class="col-md-4">
+                <img src="/images/perro2.jpeg" class="img-fluid" alt="Perro 2">
+                <h3>zeus</h3>
+                <p> un compañero fiel que esperas para tenerlo en tu vida </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="py-5 text-center">
+        <h2>Video de Adopción</h2>
+        <iframe width="560" height="315" src="/images/video adopcion.mp4" title="Video sobre adopción" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="Regístrate" class="py-5">
+        <h2 class="text-center">Regístrate para Adoptar</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="¿Por qué deseas adoptar?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar Solicitud</button>
+        </form>
+    </section>
+
+</main>
+
+<footer class="bg-rosa text-center py-3">
+    <p>&copy; 2024 Adopta un Amigo </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
